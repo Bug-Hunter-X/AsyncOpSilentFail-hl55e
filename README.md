@@ -1,0 +1,3 @@
+# Silent Failure in Asynchronous Operations
+
+This repository demonstrates a common error in Dart asynchronous programming: improper exception handling in `async` functions that leads to silent failures.  The code attempts to fetch data from a remote API.  While it includes a `try-catch` block, it simply prints an error message instead of providing more robust error handling or informing the user about the failure.
